@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#E0E8F9"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_splash"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="150dp"
+        android:scrollbars="none"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_splash_previous_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingStart="20dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="8dp"
+        android:text="previous"
+        android:textColor="#556689"
+        android:textSize="17sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_splash_next_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingStart="20dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="8dp"
+        android:text="next"
+        android:textColor="#556689"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_splash_begin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/welcome_sign_in_bg"
+            android:visibility="invisible"
+            android:paddingStart="60dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="60dp"
+            android:paddingBottom="10dp"
+            android:text="start"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <FrameLayout
+            android:id="@+id/ll_splash_indicate_point"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+</RelativeLayout>

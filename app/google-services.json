@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "818755378487",
+    "project_id": "instahele-82052",
+    "storage_bucket": "instahele-82052.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818755378487:android:4bf1d0e1c755e7a94bceb2",
+        "android_client_info": {
+          "package_name": "one.kenyacash.intahele"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818755378487-vikfm1hb6uj4pf10to46go8uj5nh6hcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxmh_i0rRwvtfkqTgToJ0qgyRuZX9_07Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818755378487-vikfm1hb6uj4pf10to46go8uj5nh6hcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

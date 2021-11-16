@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="vertical">
+
+        <com.instahela.deni.mkopo.widget.EditTextContainer
+            android:id="@+id/edit_view_person_profile_first_name"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_desc="@string/load_person_profile_first_name_desc"
+            app:select_view_title="@string/load_person_profile_first_name" />
+
+        <View style="@style/view_divide" />
+
+        <com.instahela.deni.mkopo.widget.EditTextContainer
+            android:id="@+id/edit_view_person_profile_middle_name"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_desc="@string/load_person_profile_middle_name_desc"
+            app:select_view_title="@string/load_person_profile_middle_name" />
+
+        <View style="@style/view_divide" />
+
+        <com.instahela.deni.mkopo.widget.EditTextContainer
+            android:id="@+id/edit_view_person_profile_family_name"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_desc="@string/load_person_profile_family_name_desc"
+            app:select_view_title="@string/load_person_profile_family_name" />
+
+        <View style="@style/view_divide" />
+
+        <com.instahela.deni.mkopo.widget.EditTextContainer
+            android:id="@+id/edit_view_person_profile_national_id"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_desc="@string/load_person_profile_national_id_desc"
+            app:select_view_title="@string/load_person_profile_national_id" />
+
+        <View style="@style/view_divide" />
+
+        <include
+            android:id="@+id/gender_person_profile_check_box"
+            layout="@layout/gender_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="62dp" />
+
+        <View style="@style/view_divide" />
+
+        <FrameLayout
+            android:id="@+id/fl_person_profile_time_picker"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/load_person_profile_birth" />
+
+                <TextView
+                    android:id="@+id/tv_person_profile_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="@string/load_person_profile_birth_desc" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/ic_birthday" />
+
+        </FrameLayout>
+
+        <View style="@style/view_divide" />
+
+        <com.instahela.deni.mkopo.widget.EditTextContainer
+            android:id="@+id/edit_view_person_profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_desc="@string/load_person_profile_personal_email"
+            app:select_view_title="@string/load_person_profile_personal_email_desc" />
+
+        <View style="@style/view_divide" />
+
+        <LinearLayout
+            android:id="@+id/fl_person_profile_picker"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/load_person_profile_personal_residential_address" />
+
+            <TextView
+                android:id="@+id/tv_person_profile_area_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <View style="@style/view_divide" />
+
+        <com.instahela.deni.mkopo.widget.EditTextContainer
+            android:id="@+id/edit_view_person_profile_street_address"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_desc="@string/load_person_profile_personal_street_address"
+            app:select_view_title="@string/load_person_profile_personal_street_address_desc" />
+
+        <View style="@style/view_divide" />
+
+        <TextView
+            android:id="@+id/tv_person_profile_next"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/welcome_sign_in_bg"
+            android:gravity="center"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:text="@string/load_person_profile_next"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+    </LinearLayout>
+</ScrollView>

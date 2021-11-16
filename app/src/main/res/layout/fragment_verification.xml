@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="25dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginEnd="25dp"
+    android:layout_marginRight="25dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up_phone_num" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="6dp"
+                android:layout_marginLeft="6dp"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                android:text="+" />
+
+            <Spinner
+                android:id="@+id/spinner_signup_verification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_verification_phone_num"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:lines="1"
+                android:ellipsize="end"
+                android:hint="@string/sign_up_phone_num" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View style="@style/view_divide" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="62dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_verification_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/sign_up_verification_code"
+                android:textSize="13sp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_verification_code"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:hint="@string/sign_up_verification_code"
+                android:background="@null"
+                android:layout_marginEnd="40dp"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_verification_phone_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:text="@string/sign_up_get"
+            android:textSize="18sp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/yellow_corner_bg_select"
+            android:src="@drawable/ic_bottom_arrow" />
+    </FrameLayout>
+
+    <View style="@style/view_divide" />
+
+    <TextView
+        android:id="@+id/tv_verification_next"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/welcome_sign_in_bg"
+        android:gravity="center"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:text="@string/sign_up_next"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+</LinearLayout>

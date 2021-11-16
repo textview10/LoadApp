@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name" translatable="false">Instahela</string>
+    <string name="welcome_sign_in">SIGN IN</string>
+    <string name="welcome_sign_up">SIGN UP</string>
+    
+    <string name="sign_in_title">Sign In</string>
+    <string name="sign_in_desc">Welcome Instahela</string>
+    <string name="sign_in_phone_num">Your phone number:</string>
+    <string name="sign_in_code">Input your passcode:</string>
+    <string name="sign_in_reset_code">Reset passcode ?</string>
+    <string name="sign_in_next">SUBMIT</string>
+
+    <string name="sign_up_title">Sign Up</string>
+    <string name="sign_up_desc">Welcome Instahela</string>
+    <string name="sign_up_phone_num">Verification code sent to:</string>
+    <string name="sign_up_verification_code">Enter verification code</string>
+    <string name="sign_up_next">NEXT</string>
+    <string name="sign_up_get">get</string>
+    <string name="sign_up_cancel">CANCEL</string>
+    <string name="sign_up_agree">AGREE</string>
+
+    <string name="sign_up_set_password_title">Set a passcode></string>
+    <string name="sign_up_set_password_1">Create a 4-digit passcode:</string>
+    <string name="sign_up_set_password_desc_1">Create a 4-digit passcode</string>
+    <string name="sign_up_set_password_2">Repeat 4-digit passcode:</string>
+    <string name="sign_up_set_password_desc_2">Repeat 4-digit passcode</string>
+    <string name="sign_up_set_password_submit">SUBMIT</string>
+
+    <string name="setting_menu">Menu</string>
+    <string name="setting_my_loan">My loan</string>
+    <string name="setting_my_information">My information</string>
+    <string name="setting_message">Message</string>
+    <string name="setting_message_content">Message content</string>
+    <string name="setting_comment">Post Comment</string>
+    <string name="setting_contact_us">contact us</string>
+    <string name="setting_about">About</string>
+    <string name="setting_logout">Logout</string>
+    <string name="setting_private_policy">instahela private policy</string>
+    <string name="setting_term">instahela terms</string>
+    <string name="setting_contact_us_title_1">Talk us on Whatsapp</string>
+    <string name="setting_contact_us_desc_1"> 254720660270 </string>
+    <string name="setting_contact_us_title_2">Call us on customer service</string>
+    <string name="setting_contact_us_desc_2">+254720660270</string>
+    <string name="setting_contact_us_title_3">Contact us by email</string>
+    <string name="setting_contact_us_desc_3">support@instahela.com</string>
+
+    <string name="main_apply">Apply</string>
+    <string name="main_loan_offer">Loan Offer</string>
+    <string name="main_loan_period">Period(days)</string>
+    
+    <string name="request_permission_title">@string/sign_in_desc</string>
+    <string name="request_permission_desc">For qulified loan offer and better service, please allow us to get the following permissions :</string>
+    <string name="request_permission_location_title">Location</string>
+    <string name="request_permission_location_desc">we use gps for address input conveniently</string>
+    <string name="request_permission_sms_title">SMS</string>
+    <string name="request_permission_sms_desc">we use gps sms address input conveniently</string>
+    <string name="request_permission_camera_title">Camera</string>
+    <string name="request_permission_camera_desc"></string>
+    <string name="request_permission_contacts_title">Contacts</string>
+    <string name="request_permission_contacts_desc"></string>
+    <string name="request_permission_calendar_title">Calendar</string>
+    <string name="request_permission_calendar_desc"></string>
+    <string name="request_permission_cancel">CANCEL</string>
+    <string name="request_permission_agree">AGREE</string>
+
+    <string name="start_load_welcome_instahela">Welcome Instahela!</string>
+<!--    输入个人信息-->
+    <string name="load_person_profile_title">Person profile</string>
+    <string name="load_person_profile_first_name">First Name</string>
+    <string name="load_person_profile_first_name_desc">First Name</string>
+    <string name="load_person_profile_middle_name">Middle Name (Optional)</string>
+    <string name="load_person_profile_middle_name_desc">Middle Name</string>
+    <string name="load_person_profile_family_name">Family Name</string>
+    <string name="load_person_profile_family_name_desc">Please enter your family name</string>
+    <string name="load_person_profile_national_id">National ID</string>
+    <string name="load_person_profile_national_id_desc">Please enter your national ID</string>
+    <string name="load_person_profile_gender">Gender</string>
+    <string name="load_person_profile_male">Male</string>
+    <string name="load_person_profile_family">Family</string>
+    <string name="load_person_profile_birth">Date of Birth</string>
+    <string name="load_person_profile_birth_desc">DD/MM/YYY</string>
+    <string name="load_person_profile_personal_email">Personal Email</string>
+    <string name="load_person_profile_personal_email_desc">Please enter your Email</string>
+    <string name="load_person_profile_personal_residential_address">Residential Address</string>
+    <string name="load_person_profile_personal_residential_address_desc">Choose from list</string>
+    <string name="load_person_profile_personal_street_address">Street Address</string>
+    <string name="load_person_profile_personal_street_address_desc">Please enter the street address</string>
+    <string name="load_person_profile_next">Next</string>
+
+<!--    附加信息-->
+    <string name="load_additional_profile_title">Additional profile</string>
+    <string name="load_additional_profile_title_1">Choose a guarantor from your next of kin:</string>
+    <string name="load_additional_profile_title_2">Choose a guarantor from your friends or colleagues:</string>
+
+    <string name="load_additional_profile_guarantor_phone_title">Guarantor,s phone number:</string>
+    <string name="load_additional_profile_guarantor_phone_desc">Choose from the list</string>
+    <string name="load_additional_profile_guarantor_name_title">Guarantor,s Full Legal Name</string>
+    <string name="load_additional_profile_guarantor_name_desc">Guarantor,s Full Legal Name</string>
+
+    <string name="load_additional_profile_relationship">Relationship</string>
+    <string name="load_additional_profile_choose_from_list">Choose from the list</string>
+
+    <string name="load_additional_profile_other_information">Other information:</string>
+    <string name="load_additional_profile_martial">Martial status</string>
+    <string name="load_additional_profile_education">Highest Education Level Achieved</string>
+    <string name="load_additional_profile_employment">Employment Details</string>
+    <string name="load_additional_profile_salary">Mouthly Income</string>
+    <string name="load_additional_profile_payday">Salary Payday</string>
+    <string name="load_additional_profile_loan_history">Do you have any unpaid loans?</string>
+    <string name="load_additional_profile_loan_history_desc">Yes or No</string>
+    <string name="load_additional_profile_submit">SUBMIT</string>
+
+    <string name="load_confirmation_submit_title">Loan confirmation</string>
+    <string name="load_confirmation_submit_title_desc">Review your application detail below:</string>
+    <string name="load_confirmation_submit_summary">summary</string>
+    <string name="load_confirmation_submit_item">%dst installment</string>
+    <string name="load_confirmation_term_1">I agree to the</string>
+    <string name="load_confirmation_term_2">terms &amp; condition</string>
+    <string name="load_confirmation_apply">APPLY</string>
+
+    <string name="load_processing_desc_due_date">Due Date:</string>
+    <string name="load_processing_desc_service_fee">Service fee:</string>
+    <string name="load_processing_desc_interest">interest:</string>
+    <string name="load_processing_desc_review_fee">Disburse payment:</string>
+    <string name="load_processing_desc_total_payment">Total payment:</string>
+
+    <string name="load_result_title">Loan Processing</string>
+    <string name="load_result_failure">Loan failure</string>
+    <string name="load_result_title_repayment">Waiting Repayment</string>
+    <string name="load_result_title_in_progress">In progressing</string>
+    <string name="load_result_timeout">Loan failure</string>
+    <string name="load_processing_desc">We are processing you loan application. Please Make sure your phone is active.</string>
+    <string name="load_processing_refresh">REFRESH</string>
+    <string name="load_processing_error_desc">Sorry, You are not qualified this time. Please come back to apply for a loan after 30 days</string>
+    <string name="load_processing_error_apply_now">APPLY NOW</string>
+
+    <string name="load_processing_detail_title_nor">Activity</string>
+    <string name="load_processing_detail_title_overdue">Overdue</string>
+    <string name="load_processing_repayment">Repayment:</string>
+    <string name="load_processing_due_date">Due Date</string>
+
+
+    <string name="load_processing_btn_repayment">REPAYMENT</string>
+    <string name="load_processing_btn_repayment_all">REPAYMENT ALL</string>
+    <string name="load_processing_success_title">Repaid successfully</string>
+    <string name="load_processing_success_desc">Repayment is successful, click to continue loan.</string>
+    <string name="load_processing_success_apply_now">@string/load_processing_error_apply_now</string>
+
+    <string name="dialog_logout_title">LOGOUT</string>
+    <string name="dialog_logout_desc">Are you sure logout?</string>
+    <string name="dialog_yes">YES</string>
+    <string name="dialog_no">NO</string>
+
+    <string name="dialog_congrats">Congrats</string>
+    <string name="dialog_congrats_desc">your application has been approved, Rate us 5 stars on GooglePlay, and we will open a quick audit channel for you when applying next time</string>
+    <string name="default_notification_channel_id" >Instahela</string>
+
+    <string name="my_srl_header_failed">Refresh Failed</string>
+    <string name="my_srl_header_finish">Refresh Success</string>
+    <string name="my_srl_header_loading">Wait For Loading…</string>
+    <string name="my_srl_header_pulling">Pull Down To Refresh</string>
+    <string name="my_srl_header_refreshing">Refreshing…</string>
+    <string name="my_srl_header_release">Release To Refresh</string>
+    <string name="my_srl_header_secondary">Release To Second Floor</string>
+    <string name="my_srl_header_update">\'Last Update\' M-d HH:mm</string>
+
+    <string name="my_srl_footer_failed">Load Failed</string>
+    <string name="my_srl_footer_finish">Load Success</string>
+    <string name="my_srl_footer_loading">Loading…</string>
+    <string name="my_srl_footer_nothing">No More Data</string>
+    <string name="my_srl_footer_pulling">Pull Up To Load More</string>
+    <string name="my_srl_footer_refreshing">Wait For Refreshing…</string>
+    <string name="my_srl_footer_release">Release To Load More</string>
+</resources>

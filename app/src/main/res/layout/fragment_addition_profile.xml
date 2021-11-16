@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/additional_profile_title"
+            android:text="@string/load_additional_profile_title_1" />
+
+        <com.instahela.deni.mkopo.widget.EditSelectContainer
+            android:id="@+id/select_container_additional_phone_1"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="20dp"
+            app:select_view_title="@string/load_additional_profile_guarantor_phone_title"
+            app:select_view_desc="@string/load_additional_profile_choose_from_list"
+            app:select_view_icon="@drawable/ic_contact" />
+
+        <View style="@style/view_divide" />
+
+        <com.instahela.deni.mkopo.widget.EditTextContainer
+            android:id="@+id/edit_container_additional_profile_full_name_1"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_desc="@string/load_additional_profile_guarantor_name_title"
+            app:select_view_title="@string/load_additional_profile_guarantor_name_desc" />
+
+        <View style="@style/view_divide" />
+
+        <com.instahela.deni.mkopo.widget.SelectContainer
+            android:id="@+id/select_container_additional_profile_relationship_1"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_title="@string/load_additional_profile_relationship"
+            app:select_view_desc="@string/load_additional_profile_choose_from_list"
+            app:select_view_icon="@drawable/ic_bottom_arrow"/>
+
+        <View style="@style/view_divide" />
+
+        <!--        下一个片段   -->
+        <TextView
+            style="@style/additional_profile_title"
+            android:text="@string/load_additional_profile_title_2" />
+
+        <com.instahela.deni.mkopo.widget.EditSelectContainer
+            android:id="@+id/select_container_additional_profile_phone2"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="20dp"
+            app:select_view_title="@string/load_additional_profile_guarantor_phone_title"
+            app:select_view_desc="@string/load_additional_profile_choose_from_list"
+            app:select_view_icon="@drawable/ic_contact" />
+
+        <View style="@style/view_divide" />
+
+        <com.instahela.deni.mkopo.widget.EditTextContainer
+            android:id="@+id/edit_view_additional_profile_full_name_2"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_desc="@string/load_additional_profile_guarantor_name_title"
+            app:select_view_title="@string/load_additional_profile_guarantor_name_desc" />
+
+        <View style="@style/view_divide" />
+
+        <com.instahela.deni.mkopo.widget.SelectContainer
+            android:id="@+id/select_container_additional_profile_relationship_2"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_desc="@string/load_additional_profile_choose_from_list"
+            app:select_view_title="@string/load_additional_profile_relationship" />
+
+        <View style="@style/view_divide" />
+
+        <TextView
+            android:text="@string/load_additional_profile_other_information"
+            style="@style/additional_profile_title" />
+
+        <com.instahela.deni.mkopo.widget.SelectContainer
+            android:id="@+id/select_container_additional_martial"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_title="@string/load_additional_profile_martial"
+            app:select_view_desc="@string/load_additional_profile_choose_from_list" />
+
+        <View style="@style/view_divide" />
+
+        <com.instahela.deni.mkopo.widget.SelectContainer
+            android:id="@+id/select_container_additional_education"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_title="@string/load_additional_profile_education"
+            app:select_view_desc="@string/load_additional_profile_choose_from_list" />
+
+        <View style="@style/view_divide" />
+
+        <com.instahela.deni.mkopo.widget.SelectContainer
+            android:id="@+id/select_container_additional_employment"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_title="@string/load_additional_profile_employment"
+            app:select_view_desc="@string/load_additional_profile_choose_from_list"
+            app:select_view_icon="@drawable/ic_bottom_arrow" />
+
+        <View style="@style/view_divide" />
+
+        <com.instahela.deni.mkopo.widget.SelectContainer
+            android:id="@+id/select_container_additional_salary"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_title="@string/load_additional_profile_salary"
+            app:select_view_desc="@string/load_additional_profile_choose_from_list"
+            app:select_view_icon="@drawable/ic_bottom_arrow" />
+
+        <View style="@style/view_divide" />
+
+        <com.instahela.deni.mkopo.widget.SelectContainer
+            android:id="@+id/select_container_additional_payday"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_title="@string/load_additional_profile_payday"
+            app:select_view_desc="@string/load_additional_profile_loan_history_desc"
+            app:select_view_icon="@drawable/ic_contact" />
+
+        <View style="@style/view_divide" />
+
+        <com.instahela.deni.mkopo.widget.SelectContainer
+            android:id="@+id/select_container_additional_loan_history"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginTop="10dp"
+            app:select_view_title="@string/load_additional_profile_loan_history"
+            app:select_view_desc="@string/load_additional_profile_loan_history_desc"
+            app:select_view_icon="@drawable/ic_bottom_arrow" />
+
+        <View style="@style/view_divide" />
+
+
+        <TextView
+            android:id="@+id/tv_additional_profile_submit"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/welcome_sign_in_bg"
+            android:gravity="center"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:text="@string/load_additional_profile_submit"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</ScrollView>

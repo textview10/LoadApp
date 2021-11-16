@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_setting_talk_us"
+        style="@style/ll_setting_contact_us_container"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            style="@style/iv_setting_icon"
+            android:src="@drawable/ic_my_loan"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/tv_setting_desc"
+                android:layout_marginTop="8dp"
+                android:text="@string/setting_contact_us_title_1"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                style="@style/tv_setting_desc"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/setting_contact_us_desc_1"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_call_customer"
+        android:layout_marginTop="10dp"
+        style="@style/ll_setting_contact_us_container">
+
+        <ImageView
+            style="@style/iv_setting_icon"
+            android:src="@drawable/ic_my_loan"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/tv_setting_desc"
+                android:layout_marginTop="8dp"
+                android:text="@string/setting_contact_us_title_2"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                style="@style/tv_setting_desc"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/setting_contact_us_desc_2"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_email"
+        android:layout_marginTop="10dp"
+        style="@style/ll_setting_contact_us_container">
+
+        <ImageView
+            style="@style/iv_setting_icon"
+            android:src="@drawable/ic_my_loan"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/tv_setting_desc"
+                android:layout_marginTop="8dp"
+                android:text="@string/setting_contact_us_title_3"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                style="@style/tv_setting_desc"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/setting_contact_us_desc_3"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/ic_welcome" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sign_in_desc"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_setting_account_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:id="@+id/ll_setting_my_loan"
+            style="@style/ll_setting_container">
+
+            <ImageView
+                style="@style/iv_setting_icon"
+                android:src="@drawable/ic_my_loan" />
+
+            <TextView
+                style="@style/tv_setting_desc"
+                android:text="@string/setting_my_loan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_setting_my_information"
+            style="@style/ll_setting_container">
+
+            <ImageView
+                style="@style/iv_setting_icon"
+                android:src="@drawable/ic_my_information" />
+
+            <TextView
+                style="@style/tv_setting_desc"
+                android:text="@string/setting_my_information" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_setting_message"
+            style="@style/ll_setting_container">
+
+            <ImageView
+                style="@style/iv_setting_icon"
+                android:src="@drawable/ic_message" />
+
+            <com.instahela.deni.mkopo.widget.NotifyTextView
+                android:id="@+id/tv_setting_message"
+                style="@style/tv_setting_desc"
+                android:paddingEnd="15dp"
+                android:text="@string/setting_message" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_setting_post_comment"
+            style="@style/ll_setting_container">
+
+            <ImageView
+                style="@style/iv_setting_icon"
+                android:src="@drawable/ic_about" />
+
+            <TextView
+                style="@style/tv_setting_desc"
+                android:text="@string/setting_comment" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_setting_help"
+            style="@style/ll_setting_container">
+
+            <ImageView
+                style="@style/iv_setting_icon"
+                android:src="@drawable/ic_help" />
+
+            <TextView
+                style="@style/tv_setting_desc"
+                android:text="@string/setting_contact_us" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_setting_about"
+            style="@style/ll_setting_container">
+
+            <ImageView
+                style="@style/iv_setting_icon"
+                android:src="@drawable/ic_about" />
+
+            <TextView
+                style="@style/tv_setting_desc"
+                android:text="@string/setting_about" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_setting_logout"
+            style="@style/ll_setting_container">
+
+            <ImageView
+                style="@style/iv_setting_icon"
+                android:src="@drawable/ic_logout" />
+
+            <TextView
+                style="@style/tv_setting_desc"
+                android:text="@string/setting_logout" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_setting_test"
+            android:visibility="gone"
+            style="@style/ll_setting_container">
+
+            <ImageView
+                style="@style/iv_setting_icon"
+                android:src="@drawable/ic_logout" />
+
+            <TextView
+                style="@style/tv_setting_desc"
+                android:text="test" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

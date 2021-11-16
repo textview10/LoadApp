@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_setting_private_policy"
+        android:layout_marginTop="20dp"
+        style="@style/ll_setting_container">
+
+        <ImageView
+            style="@style/iv_setting_icon"
+            android:visibility="gone"
+            android:src="@drawable/ic_my_loan" />
+
+        <TextView
+            style="@style/tv_setting_desc"
+            android:text="@string/setting_private_policy" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_term"
+        style="@style/ll_setting_container">
+
+        <ImageView
+            style="@style/iv_setting_icon"
+            android:visibility="gone"
+            android:src="@drawable/ic_my_loan" />
+
+        <TextView
+            style="@style/tv_setting_desc"
+            android:text="@string/setting_term" />
+    </LinearLayout>
+
+</LinearLayout>

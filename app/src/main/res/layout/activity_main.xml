@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!--<androidx.drawerlayout.widget.DrawerLayout-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:id="@+id/iv_main_setting"
+            android:layout_width="31dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:padding="3dp"
+            android:src="@drawable/setting_information" />
+
+        <TextView
+            android:id="@+id/tv_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/sign_in_desc"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/fl_main_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner_white_bg" />
+
+        <include
+            layout="@layout/error_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:id="@+id/pb_main_loading"
+            android:layout_width="60dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_height="60dp"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/slide_left"-->
+    <!--        android:layout_width="260dp"-->
+    <!--        android:name="com.instahela.deni.mkopo.ui.setting.MenuFragment"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_gravity="start" />-->
+
+    <!--</androidx.drawerlayout.widget.DrawerLayout>-->

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_test_success"
+        android:layout_width="wrap_content"
+        android:text="测试发送借贷成功 fcm消息"
+        android:layout_marginTop="20dp"
+        android:layout_height="56dp"/>
+
+    <Button
+        android:id="@+id/btn_test_fialure"
+        android:layout_width="wrap_content"
+        android:text="测试发送借贷失败 fcm消息"
+        android:layout_marginTop="10dp"
+        android:layout_height="56dp"/>
+
+    <Button
+        android:id="@+id/btn_repay_msg"
+        android:layout_width="wrap_content"
+        android:text="测试发送还款 fcm消息"
+        android:layout_marginTop="10dp"
+        android:layout_height="56dp"/>
+
+    <Button
+        android:id="@+id/btn_notiy"
+        android:layout_width="wrap_content"
+        android:text="测试发送通知"
+        android:layout_marginTop="10dp"
+        android:layout_height="56dp"/>
+
+    <Button
+        android:id="@+id/btn_get_firebase"
+        android:layout_width="wrap_content"
+        android:text="获取firebase注册令牌"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_quit_login"
+        android:layout_width="wrap_content"
+        android:text="退出登录"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout
+        android:id="@+id/refresh_layout_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="3dp">
+
+        <com.scwang.smart.refresh.header.ClassicsHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srlTextFailed="@string/my_srl_header_failed"
+            app:srlTextFinish="@string/my_srl_header_finish"
+            app:srlTextLoading="@string/my_srl_header_loading"
+            app:srlTextPulling="@string/my_srl_header_pulling"
+            app:srlTextRefreshing="@string/my_srl_header_refreshing"
+            app:srlTextRelease="@string/my_srl_header_release"
+            app:srlTextSecondary="@string/my_srl_header_secondary"
+            app:srlTextUpdate="@string/my_srl_header_update" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_setting_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never" />
+
+        <com.scwang.smart.refresh.footer.ClassicsFooter
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srlTextFailed="@string/my_srl_footer_failed"
+            app:srlTextFinish="@string/my_srl_footer_finish"
+            app:srlTextLoading="@string/my_srl_footer_loading"
+            app:srlTextNothing="@string/my_srl_footer_nothing"
+            app:srlTextPulling="@string/my_srl_footer_pulling"
+            app:srlTextRefreshing="@string/my_srl_footer_refreshing"
+            app:srlTextRelease="@string/my_srl_footer_release" />
+
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+
+
+    <include
+        layout="@layout/error_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/pb_message_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/fl_empty_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="empty page" />
+    </FrameLayout>
+
+</FrameLayout>
